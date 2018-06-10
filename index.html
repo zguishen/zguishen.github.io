@@ -1,21 +1,399 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>zgshen 导航</title>
-</head>
-<body>
-    
-    <head>layout head</head>
-
-    <body>
-
-        搜索框/谷歌、百度
+<!-- saved from url=(0022)https://hao.zhaoty.cn/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./res/echarts.common.min.js"></script>
+	<script type="text/javascript" src="./res/jquery-3.2.1.min.js"></script>
+      
         
-        <footer>底部</footer>
-    </body>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,
+          maximum-scale=1.0, user-scalable=no">
+        
+        <title>front page</title>
+        <link rel="shortcut icon" type="image/png" href="https://zgshen.me/favicon.ico">
+        <link rel="stylesheet" href="./res/mobi.min.css">
+        <link rel="stylesheet" href="./res/site.css">
+      </head>
+      <body>
+	  
+        <div class="flex-center">
+          <div class="container">
+            
+      <style id="search-style"></style>
+      <form id="search-form" class="form">
+        <input id="search-input" type="search" placeholder="Type to search" autocomplete="off" tabindex="1">
+      </form>
+    
+            
+      <ul class="site-bookmark-ul flex-left flex-wrap units-gap">
+	  
+	  <li class="site-bookmark-li unit-0" data-name="">
+        <a class="site-bookmark-a flex-middle" tabindex="9">
+          <span id="weathertxt"></span>
+        </a>
+      </li>
+	  
+        <li class="site-bookmark-li site-bookmark-category unit-1 top-gap text-muted text-small">新闻</li>
+      
+	  <li class="site-bookmark-li unit-0" data-name="jiemian">
+        <a href="https://www.jiemian.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.jiemian.com.ico" height="16" width="16">
+          <span>界面新闻</span>
+        </a>
+      </li>
 
-</body>
-</html>
+
+      <li class="site-bookmark-li unit-0" data-name="qdaily 好奇心日报">
+        <a href="http://www.qdaily.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.qdaily.com.png" height="16" width="16">
+          <span>好奇心日报</span>
+        </a>
+      </li>
+	  
+	  <li class="site-bookmark-li unit-0" data-name="Solidot">
+        <a href="https://www.solidot.org/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.solidot.org.png" height="16" width="16">
+          <span>Solidot</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="Solidot">
+        <a href="http://www.dwnews.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.dwnews.com.ico" height="16" width="16">
+          <span>多维新闻</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="ftchinese">
+        <a href="http://www.ftchinese.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.ftchinese.com.png" height="16" width="16">
+          <span>FT中文网</span>
+        </a>
+      </li>
+
+	  <li class="site-bookmark-li unit-0" data-name="pengpai 澎湃新闻">
+        <a href="http://www.thepaper.cn/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.thepaper.cn.ico" height="16" width="16">
+          <span>澎湃新闻</span>
+        </a>
+      </li>    
+    
+        <li class="site-bookmark-li site-bookmark-category unit-1 top-gap text-muted text-small">科技</li>
+
+      <li class="site-bookmark-li unit-0" data-name="Readhub">
+        <a href="https://readhub.me/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/readhub.me.png" height="16" width="16">
+          <span>Readhub</span>
+        </a>
+      </li>
+
+	  <li class="site-bookmark-li unit-0" data-name="geekpark">
+        <a href="http://www.geekpark.net/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.geekpark.net.png" height="16" width="16">
+          <span>极客公园</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="pingwest">
+        <a href="http://www.pingwest.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.pingwest.com.png" height="16" width="16">
+          <span>PingWest</span>
+        </a>
+      </li>
+      
+      <li class="site-bookmark-li unit-0" data-name="ithome IT之家">
+        <a href="http://www.ithome.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/ithome.com.ico" height="16" width="16">
+          <span>IT之家</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="TechCrunch">
+        <a href="http://techcrunch.cn/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/techcrunch.cn.ico" height="16" width="16">
+          <span>TechCrunch</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="36kr 36氪">
+        <a href="https://36kr.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/36kr.com.png" height="16" width="16">
+          <span>36氪</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="engadget">
+        <a href="https://cn.engadget.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/cn.engadget.com.png" height="16" width="16">
+          <span>Engadget</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="数字尾巴 shuziweiba dgtle">
+        <a href="http://www.dgtle.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.dgtle.com.ico" height="16" width="16">
+          <span>数字尾巴</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="煎蛋 jandan">
+        <a href="http://jandan.net/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/jandan.net.ico" height="16" width="16">
+          <span>煎蛋</span>
+        </a>
+      </li>
+
+        <li class="site-bookmark-li site-bookmark-category unit-1 top-gap text-muted text-small">社区</li>
+
+	  <li class="site-bookmark-li unit-0" data-name="v2ex">
+        <a href="https://www.v2ex.com/?tab=all" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/v2ex.png" height="16" width="16">
+          <span>V2EX</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="知乎 zhihu">
+        <a href="https://www.zhihu.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/zhihu.ico" height="16" width="16">
+          <span>知乎</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="雪球">
+        <a href="https://xueqiu.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/xueqiu.com.ico" height="16" width="16">
+          <span>雪球</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="汽车之家 autohome">
+        <a href="https://www.autohome.com.cn/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.autohome.com.cn.ico" height="16" width="16">
+          <span>汽车之家</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="即刻 jike">
+        <a href="https://web.okjike.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/web.okjike.com.png" height="16" width="16">
+          <span>即刻</span>
+        </a>
+      </li>
+
+        <li class="site-bookmark-li site-bookmark-category unit-1 top-gap text-muted text-small">连接</li>
+      
+	  <li class="site-bookmark-li unit-0" data-name="suhunvpn">
+        <a href="https://vpn.suhun.org/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/vpn.suhun.org.png" height="16" width="16">
+          <span>夙魂网络加速</span>
+        </a>
+      </li>
+	  
+	  <li class="site-bookmark-li unit-0" data-name="suhunvpn">
+        <a href="https://status.vpn.suhun.org/" class="site-bookmark-a flex-middle" tabindex="9">
+		  <img class="site-bookmark-img" src="./res/status.vpn.suhun.org.png" height="16" width="16">
+          <span>服务状态</span>
+        </a>
+      </li>
+	  
+	  <li class="site-bookmark-li unit-0" data-name="cloudflare">
+        <a href="https://www.cloudflare.com/a/login" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.cloudflare.com.ico" height="16" width="16">
+          <span>Cloudflare</span>
+        </a>
+      </li>
+	  
+	  <li class="site-bookmark-li unit-0" data-name="azure">
+        <a href="https://azure.microsoft.com/zh-cn/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/azure.microsoft.com.ico" height="16" width="16">
+          <span>Azure</span>
+        </a>
+      </li>
+	  
+	  <li class="site-bookmark-li unit-0" data-name="vultr">
+        <a href="https://my.vultr.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/my.vultr.com.ico" height="16" width="16">
+          <span>Vultr</span>
+        </a>
+      </li>
+	  
+	  <li class="site-bookmark-li site-bookmark-category unit-1 top-gap text-muted text-small">视频</li>
+		
+	  <li class="site-bookmark-li unit-0" data-name="Bilibili">
+        <a href="https://www.bilibili.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.bilibili.com.ico" height="16" width="16">
+          <span>哔哩哔哩</span>
+        </a>
+      </li>
+	  
+	  
+	  <li class="site-bookmark-li unit-0" data-name="youtube">
+        <a href="https://www.twitch.tv/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.twitch.tv.ico" height="16" width="16">
+          <span>twitch</span>
+        </a>
+      </li>
+      
+	  <li class="site-bookmark-li unit-0" data-name="youtube">
+        <a href="https://www.youtube.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.youtube.com.png" height="16" width="16">
+          <span>Youtube</span>
+        </a>
+      </li>
+	  
+	  <li class="site-bookmark-li unit-0" data-name="iqiyi">
+        <a href="https://www.iqiyi.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.iqiyi.com.ico" height="16" width="16">
+          <span>爱奇艺</span>
+        </a>
+      </li>
+
+	  <li class="site-bookmark-li unit-0" data-name="leshi">
+        <a href="https://www.le.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.le.com.ico" height="16" width="16">
+          <span>乐视</span>
+        </a>
+      </li>
+
+	  <li class="site-bookmark-li unit-0" data-name="douban 豆瓣电影">
+        <a href="https://movie.douban.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/movie.douban.com.ico" height="16" width="16">
+          <span>豆瓣电影</span>
+        </a>
+      </li>
+	  
+	  <li class="site-bookmark-li site-bookmark-category unit-1 top-gap text-muted text-small">购物</li>
+
+	  <li class="site-bookmark-li unit-0" data-name="京东 jd">
+        <a href="https://www.jd.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.jd.com.ico" height="16" width="16">
+          <span>京东</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="淘宝 taobao">
+        <a href="https://www.taobao.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.taobao.com.ico" height="16" width="16">
+          <span>淘宝</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="smzdm">
+        <a href="https://www.smzdm.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.smzdm.com.ico" height="16" width="16">
+          <span>什么值得买</span>
+        </a>
+      </li>
+
+	  <li class="site-bookmark-li site-bookmark-category unit-1 top-gap text-muted text-small">服务</li>
+
+	  <li class="site-bookmark-li unit-0" data-name="translate google">
+        <a href="https://mail.google.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/mail.google.com.ico" height="16" width="16">
+          <span>Gmail</span>
+        </a>
+      </li>
+
+	  <li class="site-bookmark-li unit-0" data-name="translate google">
+        <a href="https://translate.google.cn/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/translate.google.com.ico" height="16" width="16">
+          <span>谷歌翻译</span>
+        </a>
+      </li>
+
+	  <li class="site-bookmark-li unit-0" data-name="ipipnet">
+        <a href="https://www.ipip.net/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.ipip.net.ico" height="16" width="16">
+          <span>IPIP.NET</span>
+        </a>
+      </li>
+	  
+	  <li class="site-bookmark-li unit-0" data-name="17ce">
+        <a href="https://www.17ce.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/www.17ce.com.bmp" height="16" width="16">
+          <span>17ce</span>
+        </a>
+      </li>
+
+	  <li class="site-bookmark-li unit-0" data-name="pingpe">
+        <a href="https://ping.pe/" class="site-bookmark-a flex-middle" tabindex="9">
+          <span>ping.pe</span>
+        </a>
+      </li>
+	  
+      <li class="site-bookmark-li unit-0" data-name="woomoe">
+        <a href="https://woo.moe/" class="site-bookmark-a flex-middle" tabindex="9">
+          <span>我萌短网址</span>
+        </a>
+      </li>
+	  
+	  <li class="site-bookmark-li unit-0" data-name="zimuzu">
+        <a href="http://www.zimuzu.tv/" class="site-bookmark-a flex-middle" tabindex="9">
+		<img class="site-bookmark-img" src="./res/www.zimuzu.tv.ico" height="16" width="16">
+          <span>字幕组</span>
+        </a>
+      </li>
+	  
+	  <li class="site-bookmark-li unit-0" data-name="zimuku">
+        <a href="http://www.zimuku.cn/" class="site-bookmark-a flex-middle" tabindex="9">
+		<img class="site-bookmark-img" src="./res/www.zimuku.cn.png" height="16" width="16">
+          <span>字幕库</span>
+        </a>
+      </li>
+
+      <li class="site-bookmark-li unit-0" data-name="zimuku">
+        <a href="http://www.24k99.com/" class="site-bookmark-a flex-middle" tabindex="9">
+		<img class="site-bookmark-img" src="./res/www.24k99.com.ico" height="16" width="16">
+          <span>贵金属</span>
+        </a>
+      </li>
+	  	  
+      <li class="site-bookmark-li unit-0" data-name="域名商价格对比 yumingshangjiageduibi">
+        <a href="https://www.domcomp.com/" class="site-bookmark-a flex-middle" tabindex="9">
+          <img class="site-bookmark-img" src="./res/domcomp.png" height="16" width="16">
+          <span>域名商价格对比</span>
+        </a>
+      </li>
+      	  
+
+		
+      </ul>
+    
+            
+      <footer class="text-center top-gap-big text-muted text-small">
+        <hr>
+        <p>Designed by <a class="text-muted" href="https://github.com/xcatliu/123">xcatliu</a> ·  Powered by <a class="text-muted" href="https://zgshen.me/">zgshen</a>
+      </p></footer>
+    
+          </div>
+        </div>
+
+        <script src="./res/search.js"></script>
+        <script type="text/javascript">
+        $(function(){
+			$.ajax({
+				url: "https://free-api.heweather.com/v5/weather",
+				type: "GET",
+				dataType: "json",
+				data: {
+					city: "guangzhou",
+					key: "0e551ab59fa34785af066024763673bd"
+				},
+		
+				success: function(data) {
+					aqiData = data.HeWeather5[0].aqi.city;
+					basicData = data.HeWeather5[0].basic;
+					nowData = data.HeWeather5[0].now;
+					$("#weathertxt").html("广州"+"&nbsp;"+nowData.tmp+"℃"+"&nbsp;"+nowData.cond.txt+"&nbsp;·&nbsp;"+aqiData.qlty+"&nbsp;"+aqiData.aqi+"&nbsp;·&nbsp;风力&nbsp;"+nowData.wind.sc+"级");
+					$("#weathertxt01").html("广州"+"&nbsp;"+nowData.tmp+"℃"+"&nbsp;"+nowData.cond.txt);
+					$("#weathertxt02").html("空气&nbsp;"+aqiData.qlty+"&nbsp;"+aqiData.aqi);
+					$("#weathertxt03").html(nowData.wind.dir+"&nbsp;"+nowData.wind.sc);
+				},
+				error: function(e){
+					$("#weathertxt").html("当前网络连接不可用");
+				}
+			})
+		});
+        </script>
+      
+    
+  </body></html>
