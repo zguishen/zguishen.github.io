@@ -15,7 +15,6 @@
       return;
     }
     var c = String.fromCharCode(e.keyCode).toLowerCase();
-	console.log(c)
     if (c.match(/\w/)) {
       searchInput.focus();
       searchInput.value = c;
